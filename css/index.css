@@ -1,0 +1,163 @@
+.preloader {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 999;
+  background: #fff;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+}
+nav {
+  background: #0000007d;
+  position: fixed !important;
+  top: 0;
+  left: 0;
+  transition: all 0.3s;
+}
+.nav-link {
+  margin: 0 10px;
+}
+.nav-link:hover {
+  color: #fff !important;
+}
+.background {
+  background: url(../Images/sean-o-KMn4VEeEPR8-unsplash.jpg) center;
+  background-size: cover;
+  height: 85vh;
+}
+.display-4 {
+  font-weight: 600;
+  color: #f63169;
+}
+#causes .col-lg-4 i {
+  font-size: 40px;
+  padding: 20px;
+  margin: 10px 0;
+  color: #fff;
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+}
+#causes .fa-donate {
+  background: #d51515;
+}
+#causes .fa-lightbulb {
+  background: #deb81e;
+}
+#causes .fa-tshirt {
+  background: #0ea346;
+}
+.close1 {
+  color: #fff !important;
+  background: #000 !important;
+  padding: 5px !important;
+  margin: 5px 10px 0 0 !important;
+}
+.img1 {
+  z-index: 2;
+  width: 340px;
+  height: 192px;
+}
+.img1:hover {
+  cursor: pointer;
+  position: relative;
+}
+.main:before {
+  content: '+';
+  font-size: 100px;
+  font-weight: 500;
+  justify-content: center;
+  color: #fff;
+  align-items: center;
+  display: flex;
+  width: 100%;
+  height: 65.5%;
+  position: absolute;
+  background: #f6f900bf;
+  transition: 0.5s;
+  cursor: pointer;
+  opacity: 0;
+  z-index: 0;
+}
+.main:hover:before {
+  opacity: 1;
+}
+.font i {
+  font-size: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  border-radius: 50%;
+  width: 52px;
+  height: 53px;
+  border: 2px solid #b51c1c;
+  color: #b51c1c;
+}
+.front {
+  position: relative;
+}
+.front img {
+  transition: all 0.4s;
+  clip-path: circle(100% at 50% 32%);
+  cursor: pointer;
+  width: 336px;
+  height: 336px;
+}
+.top {
+  position: absolute;
+  top: 55%;
+  left: 0;
+  z-index: -1;
+}
+.front img:hover {
+  clip-path: circle(19.4% at 50% 32%);
+  transition: all 0.4s;
+}
+#blogs {
+  position: relative;
+}
+.design {
+  width: 60px;
+  height: 75px;
+  background: #efcd10;
+  position: absolute;
+  top: 0;
+  right: 4%;
+  z-index: 1;
+  clip-path: polygon(
+    20% 0%,
+    0 0,
+    0 55%,
+    0 100%,
+    0 100%,
+    50% 73%,
+    100% 100%,
+    100% 100%,
+    100% 54%,
+    100% 0,
+    83% 0,
+    55% 0
+  );
+}
+.card3 {
+  position: relative;
+}
+.design1 {
+  background: #eada25;
+  box-sizing: border-box;
+  border: 1px solid #fff;
+}
+.design1 i {
+  font-size: 28px;
+  color: #b51c1c;
+}
+.design1 p {
+  font-weight: 400;
+  color: #fff;
+}
